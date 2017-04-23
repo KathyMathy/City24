@@ -22,6 +22,33 @@
 /********************************/
 /*          Hero Headers        */
 /********************************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Dosis', sans-serif;
+}
+
+li {
+    float: left;
+  margin-left: 135px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
 .hero {
     position: absolute;
     top: 50%;
@@ -106,7 +133,7 @@
   background-repeat: repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(https://static.pexels.com/photos/30732/pexels-photo-30732.jpg); 
+  background-image: url(https://static.pexels.com/photos/30732/pexels-photo-30732.jpg);
 }
 .fade-carousel .slides .slide-2 {
   background-image: url(https://static.pexels.com/photos/29732/pexels-photo-29732.jpg);
@@ -138,6 +165,7 @@ border: 0;
 box-shadow: 0;
 display: inline;
 }
+
  
 </style>
 
