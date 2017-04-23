@@ -1,4 +1,40 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title> City24 </title>
+<h1>h1. Bootstrap heading </h1>
+
+.img-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+<p class="text-left">Left aligned text.</p>
+<p class="text-center">Center aligned text.</p>
+<p class="text-right">Right aligned text.</p>
+<p class="text-justify">Justified text.</p>
+<p class="text-nowrap">No wrap text.</p>
+
+
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercased text.</p>
+<p class="text-capitalize">Capitalized text.</p>
+
+
+.img-circle {
+	text-align: center;
+}
+
+.img-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*
+{
+	font-family: 'Dosis', sans-serif;
+}
+body {
+  background: url(images/City24.jpg);
+}
+
+
