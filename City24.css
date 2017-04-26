@@ -1,14 +1,14 @@
 <h1>h1. Bootstrap heading </h1>
 
 .fade-carousel {
-    position: relative;
+    position: center;
     height: 100vh;
 }
 .fade-carousel .carousel-inner .item {
     height: 100vh;
 }
 .fade-carousel .carousel-indicators > li {
-    margin: 0 2px;
+    margin: 0 5px;
     background-color: #f39c12;
     border-color: #f39c12;
     opacity: .7;
@@ -18,7 +18,6 @@
   height: 10px;
   opacity: 1;
 }
-
 /********************************/
 /*          Hero Headers        */
 /********************************/
@@ -129,17 +128,17 @@ li a:hover {
 .fade-carousel .slides .slide-3 {
   height: 100vh;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: repeat;
 }
-.fade-carousel .slides .slide-1 {
-  background-image: url(https://static.pexels.com/photos/30732/pexels-photo-30732.jpg);
-}
+.fade-carousel .slides .slide-1 { background-image: 
+	url(http://cdn.epicski.com/3/38/600x400px-LL-38cec405_Milan-Worst-Cities-Commuting-SS.jpeg)}
+
 .fade-carousel .slides .slide-2 {
   background-image: url(https://static.pexels.com/photos/29732/pexels-photo-29732.jpg);
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(https://static.pexels.com/photos/96414/pexels-photo-96414.jpeg);
+  background-image: url(https://pbs.twimg.com/media/ChzEeiQWkAMPt7Z.jpg);
 }
 
 /********************************/
@@ -159,9 +158,10 @@ font-family: 'Anton', sans-serif;}
 <style type="text/css">
  
 #share-buttons img {
+object-position: center;
 width: 35px;
 padding: 5px;
-border: 0;
+border: 10;
 box-shadow: 0;
 display: inline;
 }
